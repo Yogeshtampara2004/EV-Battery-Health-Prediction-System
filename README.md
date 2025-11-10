@@ -43,3 +43,11 @@ streamlit run app.py
 
 
 ## 📁 Folder Structure
+ev_battery_health/
+│
+├── app.py # Streamlit app for prediction
+├── model.py # Trains and saves ML model
+├── generate_data.py # Creates synthetic dataset
+├── battery_data.csv # Generated dataset
+├── battery_health_model.pkl # Saved regression model
+└── requirements.txt
